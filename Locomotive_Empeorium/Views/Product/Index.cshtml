@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Products>
+
+<h2>Locomotive List</h2>
+<table class="table" id="test">
+	<tr>
+		<th>Model Train Producer:</th>
+		<th>Locomotive Name:</th>
+		<th>Price</th>
+		<th>Wheel Configuration</th>
+		<th>Powerplant</th>
+		<th>ID</th>
+		<th>Year Manufactored</th>
+	</tr>
+
+
+	@foreach (var product in Model)
+	{
+		
+<tr draggable="true">
+
+
+
+
+	<td>@product.CompanyName</td>
+	<td>@product.LocomotiveName</td>
+	<td>$@product.Price</td>
+	<td>@product.Gauge</td>
+	<td>@product.PowerPlant</td>
+	<td>@product.WheelConfig</td>
+	<td>@product.ID</td>
+	<td>@product.Year_Manufactored</td>
+	<td>@product.WheelConfig</td>
+
+	
+
+</tr>
+
+	}
+</table>

@@ -1,0 +1,254 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+#title {
+text-align:center;
+font-family:'Edwardian Script ITC';
+position:absolute;
+top:0%;
+left:45%;
+border-bottom-style:double;
+border-width:thick;
+
+
+}
+
+.navbar-collapse collapse d-sm-inline-flex justify-content-between {
+background-color:aliceblue;
+}
+
+#second_button {
+    font-family: none;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+}
+
+.bg-dark {
+    background-color: #5c7b99 !important;
+
+    border-style: double
+}
+
+#first_button {
+    font-family: none;
+    background-image: url(http://3.bp.blogspot.com/-RsXw25f9474/UioBSwn2YII/AAAAAAAAI9Y/0RVQY6QE1gY/s1600/Wm.+Mason+++Co.+Builders+Taunton+Mass..jpg);
+    background-size:70%;
+    
+    background-color:antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+}
+
+#third_button {
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50px;
+    font-family:none;
+}
+
+#fourth_button {
+    background-color: antiquewhite;
+    border-style: solid;
+    font-family:none;
+    border-color: black;
+    border-radius: 50px;
+}
+#Cover_Image {
+    border-color:black;
+border-style:double;
+position:absolute;
+bottom:-35%;
+left:25%;
+border-width:thick;
+
+
+}
+
+
+#Database_Opening {
+font-family:Century;
+
+}
+
+#Lionel_Image {
+border-style:double;
+
+}
+#Opening_Statement::first-letter {
+    font-size:35px;
+    font-family:'Edwardian Script ITC'
+
+}
+#Opening_Statement {
+    font-family: Century;
+    text-align: center;
+    border-bottom: double;
+
+
+}
+
+#Company Abbriviation {
+font-family:Broadway
+position:relative
+
+
+}
+
+
+h1 {
+    font-family: 'Book Antiqua';
+    color:black;
+}
+
+p {
+    font-family:Broadway, Times, serif;
+    color:black;
+    
+
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+#test {
+font-family:'century';
+
+
+
+}
+
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: blue;
+    border-color: #1861ac;
+    border-style:double;
+    background-image: url(https://blog.marinersmuseum.org/wp-content/uploads/2013/01/LP2944-MilwaukeeRailroad-300x193.jpg)
+}
+
+
+
+.Top_Column {
+
+  background-color:antiquewhite;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px double #e5e5e5;
+}
+
+
+
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    background-color: #bbcf1414;
+    margin-bottom: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.Locomotive_Photo {
+    border-style: solid;
+    width: 1050px;
+    height: 190px;
+    border-radius: 30px;
+    margin-left: -16px;
+}
+.Locomotive_Surface_Template {
+
+
+
+
+
+
+}
+.container {
+font-family:Broadway;
+}
+.LocomotiveSurface_Name {
+    font-family: Century;
+    font-weight: bold;
+    position: absolute;
+    right: 50.5%;
+    font-style: italic;
+    bottom: 85.0%;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    margin-bottom: 13px;
+}
+
+.column {
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border-style: double;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    font-family: Century;
+    font-style: italic;
+    background-color: antiquewhite;
+}
+
+.First_Lionel_Loco {
+    background-attachment: fixed;
+    width: 245px;
+    height: 160px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color: black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
